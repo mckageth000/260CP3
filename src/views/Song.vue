@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <div>{{ith}} Movement</div>
+  <div id='wrapper'>
+    <div><h1>{{ith}} Movement</h1></div>
     <audio controls>
       <source v-bind:src='songSrc' type='audio/ogg'/>
     </audio>
-    <div>{{info}}</div>
+    <div id="info">"{{info}}"(from <a href='https://en.wikipedia.org/wiki/Symphony_No._5_(Beethoven)'>Wikipedia</a>)</div>
   </div>
 </template>
 
@@ -41,7 +41,25 @@ export default{
 </script>
 
 <style scoped>
+  #wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   audio{
     width: 50%;
+  }
+
+  audio::-webkit-media-controls-panel{
+    background-color: #c7c7fc;
+  }
+
+  #info{
+    width: 70%;
+    line-height: 1.8;
+    margin: 15px;
+    text-align: left;
+    font-size: 20px;
   }
 </style>

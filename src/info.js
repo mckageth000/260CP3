@@ -1,19 +1,21 @@
 let info = [{
     id: 1,
-    about: "Fake info about the 1st movement"
+    about: "The first movement opens with [a] four-note motif.. one of the most famous motifs in Western music. There is considerable debate among conductors as to the manner of playing the four opening bars. Some conductors take it in strict allegro tempo; others take the liberty of a weighty treatment, playing the motif in a much slower and more stately tempo; yet others take the motif molto ritardando (a pronounced slowing through each four-note phrase), arguing that the fermata over the fourth note justifies this. Some critics and musicians consider it crucial to convey the spirit of [pause]and-two-and one, as written, and consider the more common one-two-three-four to be misleading. " +
+"The first movement is in the traditional sonata form that Beethoven inherited from his Classical predecessors, such as Haydn and Mozart (in which the main ideas that are introduced in the first few pages undergo elaborate development through many keys, with a dramatic return to the opening section—the recapitulation—about three-quarters of the way through). It starts out with two dramatic fortissimo phrases, the famous motif, commanding the listener's attention. Following the first four bars, Beethoven uses imitations and sequences to expand the theme, these pithy imitations tumbling over each other with such rhythmic regularity that they appear to form a single, flowing melody. Shortly after, a very short fortissimo bridge, played by the horns, takes place before a second theme is introduced. This second theme is in E♭ major, the relative major, and it is more lyrical, written piano and featuring the four-note motif in the string accompaniment. The codetta is again based on the four-note motif. The development section follows, including the bridge. During the recapitulation, there is a brief solo passage for oboe in quasi-improvisatory style, and the movement ends with a massive coda."
   },
   {
     id: 2,
-    about: "Fake info about the 2nd movement"
+    about: "The second movement, in A♭ major, the subdominant key of C minor's relative key (E♭ major), is a lyrical work in double variation form, which means that two themes are presented and varied in alternation. Following the variations there is a long coda." +
+"The movement opens with an announcement of its theme, a melody in unison by violas and cellos, with accompaniment by the double basses. A second theme soon follows, with a harmony provided by clarinets, bassoons, and violins, with a triplet arpeggio in the violas and bass. A variation of the first theme reasserts itself. This is followed up by a third theme, thirty-second notes in the violas and cellos with a counterphrase running in the flute, oboe, and bassoon. Following an interlude, the whole orchestra participates in a fortissimo, leading to a series of crescendos and a coda to close the movement."
   },
   {
     id: 3,
-    about: "Fake info about the 3rd movement"
+    about: "The third movement is in ternary form, consisting of a scherzo and trio. While most symphonies before Beethoven's time employed a minuet and trio as their third movement, Beethoven chose to use the newer scherzo and trio form. The movement returns to the opening key of C minor and begins with the following theme, played by the cellos and double basses. The opening theme is answered by a contrasting theme played by the winds, and this sequence is repeated. Then the horns loudly announce the main theme of the movement, and the music proceeds from there. The trio section is in C major and is written in a contrapuntal texture. When the scherzo returns for the final time, it is performed by the strings pizzicato and very quietly… The third movement is also notable for its transition to the fourth movement, widely considered one of the greatest musical transitions of all time."
   },
   {
     id: 4,
-    about: "Fake info about the 4th movement"
-  }
+    about: "The fourth movement begins without pause from the transition. The music resounds in C major, an unusual choice by the composer as a symphony that begins in C minor is expected to finish in that key. In Beethoven's words: \"Many assert that every minor piece must end in the minor. Nego! ...Joy follows sorrow, sunshine—rain.\" The triumphant and exhilarating finale is written in an unusual variant of sonata form: at the end of the development section, the music halts on a dominant cadence, played fortissimo, and the music continues after a pause with a quiet reprise of the \"horn theme\" of the scherzo movement. The recapitulation is then introduced by a crescendo coming out of the last bars of the interpolated scherzo section, just as the same music was introduced at the opening of the movement… The Fifth Symphony finale includes a very long coda, in which the main themes of the movement are played in temporally compressed form. Towards the end the tempo is increased to presto. The symphony ends with 29 bars of C major chords, played fortissimo."
+  },
 ]
 
 export default info;

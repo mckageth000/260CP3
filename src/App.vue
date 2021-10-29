@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/"><img id='thmb' src='./images/beet.png'/></router-link>
       <router-link id="title" to="/">Beethoven's Symphony No. 5</router-link>
+      <img style='opacity: 0;' id='thmb' src='./images/beet.png'/>
     </div>
     <router-view/>
     <div id='footer'>
@@ -28,7 +29,7 @@ body{
 #nav {
   display: flex;
   padding: 0px;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   background-color: #a1a1ff;
 }
@@ -38,9 +39,6 @@ body{
   margin: 10px;
 }
 
-#title{
-  padding-left: 30px;
-}
 
 #nav a {
   font-weight: bold;
@@ -58,10 +56,10 @@ body{
   padding: 8px;
 }
 
-#footer a:link,
-#footer a:hover,
-#footer a:visited,
-#footer a:active{
+a:link,
+a:hover,
+a:visited,
+a:active{
   text-decoration: none;
   color: black;
 }
